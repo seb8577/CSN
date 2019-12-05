@@ -1,0 +1,402 @@
+/* DOCUMENT INFORMATION
+        - document : website CSN
+        - version : 1.0.0
+        - author : S. Teillet
+
+ CSS DIRECTORY
+        1.  global
+        2.  navbar
+        3.  carousel
+        4.  title section
+        5.  menu section
+        6.  button up
+        7.  jumbotron
+        8.  adress section
+        9.  paralax
+        10. l'entreprise
+        11. fiches techniques
+        12. cards actualités
+        13. devis
+        14. login admin
+        15. footer
+        16. media queries
+*/
+
+/* 1 GLOBAL */
+html, body {
+    height: 100%;
+    width: 100%;
+    color: #222;
+}
+
+h1 {
+    font-family: 'Comfortaa', 'Arial', sans-serif;
+}
+
+h2 {
+    font-family: 'Comfortaa', 'Arial', sans-serif;
+    color: #000;
+    text-align: center;
+    margin: 10px;
+}
+
+h3 {
+    color: #000;
+}
+
+h5 {
+    color: #fff;
+    font-size: small;
+}
+
+p {
+    font-family: 'Kalam', 'Arial', sans-serif;
+    font-size: 120%;
+}
+
+/* 2 NAVBAR */
+img {
+    height: 3rem;
+    width: 3rem;
+}
+
+.navbar {
+    background-color: #2b2828;
+}
+
+.navbar-nav {
+    padding-right: 20px;
+}
+
+.nav-link {
+    font-size: 1.1em !important;
+}
+
+/* 3 CAROUSEL */
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+}
+
+.carousel-caption {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.carousel-caption h1 {
+    padding-top: 6rem;
+    font-size: 500%;
+    text-shadow: 1px 1px 15px #000;
+}
+
+/* 4 TITLE SECTION */
+.title-section {
+    font-size: 250%;
+}
+
+.padding {
+    padding-bottom: 2rem;
+}
+
+.title {
+    width: 75%;
+    margin: 0 auto;
+    padding-top: 2rem;
+}
+
+.title hr {
+    border-top: 2px solid #b4b4b4;
+    width: 95%;
+    margin-top: .3rem;
+    margin-bottom: 1rem;
+}
+
+/* 5 - MENU SECTION*/
+.btn-secondary {
+    background-color: #fff;
+    color: #3f3f3f;
+}
+
+.btn-secondary:hover {
+    background-color: #196385;
+    color: #fff;
+}
+
+.fa-briefcase {
+    color: #196385;
+    font-size: 4em;
+    margin: 1rem;
+}
+
+.fa-ship {
+    color: #196385;
+    font-size: 4em;
+    margin: 1rem;
+}
+
+.fa-drafting-compass {
+    color: #196385;
+    font-size: 4em;
+    margin: 1rem;
+}
+
+.fa-info-circle {
+    color: #196385;
+    font-size: 4em;
+    margin: 1rem;
+}
+
+/* 6 BUTTON UP */
+.fa-arrow-alt-circle-up {
+    color: #2b2828;
+    font-size: 3em;
+    margin: 1rem;
+}
+
+.fa-arrow-alt-circle-up:hover {
+    color: #413e3e;
+    font-size: 3em;
+    margin: 1rem;
+}
+
+/* 7 JUMBOTRON */
+.jumbotron {
+    padding: 3.5rem;
+    border-radius: 0;
+}
+
+/* 8 ADRESS SECTION */
+.fun {
+    width: 100%;
+    margin-bottom: 2rem;
+    background-color: #2b2828;
+    color: #fff;
+}
+
+.adress {
+    margin: 50px;
+}
+
+.title-adress {
+    color: #196385;
+}
+
+/* 9 PARALAX */
+.paralax {
+    background-image: url(../ressources/images/paralax.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    height: 400px;
+}
+
+/* 10 L'ENTREPRISE */
+.title-entreprise {
+    padding-top: 15px;
+}
+/* galerie photos */
+.galerie-img {
+    display: block;
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;
+    height: 300px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0,0.3);
+    margin-bottom: 30px;
+}
+
+/* 11 FICHES TECHNIQUES*/
+.title-ftechniques {
+    padding-top: 15px;
+}
+
+/* 12 CARDS ACTUALITÉS*/
+.title-actualites {
+    padding-top: 15px;
+}
+
+.responsive {
+    width: 100%;
+    height: auto;
+}
+
+.card-title {
+    color: #196385;
+    font-size: 120%;
+}
+
+.card-text {
+    font-size: 100%;
+ }
+
+.card-actualites {
+    padding-top: 2rem;
+}
+
+#dash {
+    margin: auto;
+    width:  auto;
+    height: 12vh;
+    overflow: hidden;
+}
+
+/* 12 CARD ACTUALITÉ article seul*/
+.articleOne {
+    padding: 2rem;
+}
+
+.cardArticleOne {
+    margin: 0.7rem;
+}
+
+/* 13 DEVIS */
+.section-devis {
+    padding: 1rem;
+}
+
+/* 14 LOGIN ADMIN */
+.section-login {
+    padding: 1rem;
+}
+
+.fa-asterisk {
+    font-size: 8px;
+}
+
+/* 15 FOOTER */
+footer {
+    background-color: #2b2828;
+    color: #d5d5d5;
+    padding-top: 2rem;
+}
+
+.footer p {
+    font-size: 110%;
+}
+
+.footer h5 {
+    font-size: 140%;
+}
+
+hr.light {
+    border-top: 1px solid #d5d5d5;
+    width: 75%;
+    margin-top: .8rem;
+    margin-bottom: 1rem;
+}
+
+footer a {
+    color: #d5d5d5;
+}
+
+hr.light-100 {
+    border-top: 1px solid #d5d5d5;
+    width: 100%;
+    margin-top: .8rem;
+    margin-bottom: 1rem;
+}
+
+.fa-facebook {
+    color: #3b5998;
+    font-size: 2em;
+    margin: 5px;
+}
+
+.fa-instagram {
+    color: #517fa4;
+    font-size: 2em;
+    margin: 5px;
+}
+
+.fa-linkedin {
+    color: #0e76a8;
+    font-size: 2em;
+    margin: 5px;
+}
+
+.fa-facebook:hover,
+.fa-instagram:hover,
+.fa-linkedin:hover {
+    color: #d5d5d5;
+}
+
+/* 16 MEDIA QUERIES */
+@media (max-width: 992px) {
+.social a {
+    font-size: 4rem;
+    padding: 2rem;
+}
+}
+
+@media (max-width: 768px) {
+.carousel-caption {
+    top: 45%;
+}
+.carousel-caption h1 {
+    font-size: 350%;
+}
+.carousel-caption h3 {
+    font-size: 140%;
+    font-weight: 400;
+    padding-bottom: 1.2rem;
+}
+.display-4 {
+    font-size: 200%;
+}
+/* menu section */
+.menu h3 {
+    font-size: 120%;
+}
+.menu p {
+    font-size: 100%;
+}
+/* icons fb */
+.social a {
+    font-size: 1rem;
+    padding: 0.5rem;
+}
+/* adress map */
+.adress h2 {
+    font-size: 120%;
+}
+.adress p {
+    font-size: 100%;
+}
+.map-responsive iframe {
+    width: 100%;
+}
+}
+
+@media (max-width: 576px) {
+.carousel-caption {
+    top: 40%;
+}
+.carousel-caption h1 {
+    font-size: 250%;
+}
+.carousel-caption h3 {
+    font-size: 110%;
+}
+.carousel-indicators {
+    display: none;
+}
+.display-4 {
+    font-size: 160%;
+}
+/* icons fb */
+.social a {
+    font-size: 1rem;
+    padding: 0.5rem;
+}
+/* adress map */
+.adress h2 {
+    font-size: 120%;
+}
+.adress p {
+    font-size: 100%;
+}
+.map-responsive iframe {
+    width: 100%;
+}
+}
