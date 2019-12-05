@@ -3,6 +3,9 @@ const exphbs    = require('express-handlebars');
 
 const app = express();
 
+// affiche css-images
+app.use(express.static('public'));
+
 
 
 // ROUTE
