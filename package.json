@@ -1,0 +1,23 @@
+{
+  "name": "csn",
+  "version": "1.0.0",
+  "description": "site vitrine pour csn",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/seb8577/csn.git"
+  },
+  "author": "sébastien",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/seb8577/csn/issues"
+  },
+  "homepage": "https://github.com/seb8577/csn#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-handlebars": "^3.1.0"
+  }
+}
